@@ -1,0 +1,12 @@
+100 - Hosted on Heroku (Required) - done
+100 - Custom domain name (Required) - done, www.kylesza.net
+100 - Instructor/discretionary (Required, looking for quality, originality, spelling/grammer, overall project polish)  - done
+300 - 4 complete HTML pages with content - done, main, gallery, podcast, contact
+600 - Custom programming that matches your Heroku instance (Node.js, Rails, etc) <- Your final project should be _mostly_ code.
+200 - Custom CSS or Bootstrap for design (all pages) - done, bootstrap
+100 - Use a Heroku add-on in your project
+100 - Use a Heroku button install (https://elements.heroku.com/buttons)
+50 - Use at least two custom images (original photography or illustration) - done, image gallery and a few others
+50 - Integrate a JavaScript component - done - image gallery is all JS and JQ
+50 - Integrate non-Heroku 3rd party widget - possibly? The gallery uses something called prettyPhoto to do the whole pop out animation
+50 - Use a 3rd party font icon like FontAwesome - done, used on contact page
