@@ -1,0 +1,167 @@
+@import 'prettyPhoto.css';
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  background-color:#202A29;
+;
+}
+
+
+body#k-lightbox #lbox_share {
+    display:none !important;
+}
+
+#nav{
+    padding-top: 60px;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: right;
+    color:#F3F3E7;
+
+}
+
+.bigicon {
+    font-size: 33px;
+    color: #202A29;
+}
+
+.jumbotron {
+    background: #000 url("../img/background.jpg") center center;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.beartalk {
+    margin-top: -20px;
+    margin-bottom: -10px;
+    background: #000 url("../img/cover.png") center center;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.podcast {
+    background: #202A29 center center;
+    width: 90%;
+    height: 700px;
+    background-size: cover;
+    overflow:scroll;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.podcast-listen {
+    color: #202A29;
+    float: inherit;
+    border-radius: 5px;
+    background-color:#F3F3E7;
+    width: 70%;
+}
+
+.gallery p {
+    color:#202A29; 
+      font-family:  helvetica neue, sans;
+
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+
+.jumbotron h1{
+    color:#F3F3E7;
+    font-family:  helvetica neue, sans;
+    height:160px;
+    line-height: 250px;
+}
+
+.jumbotron p{
+    color:whitesmoke;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.podcast-listen h3{
+    text-align: center;
+    color: #202A29;
+}
+
+.container {
+    float: inherit;
+    border-radius: 5px;
+    background-color:#F3F3E7;
+    width: 85%;
+}
+
+.centered {
+  margin: auto auto;
+  display: block;
+  width: 185px;
+  margin-bottom: 25px;
+}
+.thumbnail {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+width: 300px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+    margin-left: 20px;
+}
+.thumbnail img {
+    border-radius: 3px;
+  opacity: .75;
+}
+.thumbnail img:hover {
+  opacity: 1;
+}
+.gallery {
+/*    padding: 30px;*/
+  color: #fff;
+  font-family:  helvetica neue, sans;
+
+}
+.gallery h2 {
+  font-family:  helvetica neue, sans;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 4.5em;
+  font-weight: 200;
+  line-height: 1.65em;
+  border-bottom: 1px solid #fff;
+}
+
+.gallery h3 {
+  font-family:  helvetica neue, sans;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 4.5em;
+  font-weight: 200;
+  line-height: 1.65em;
+  border-bottom: 1px solid #fff;
+}
+
+.gallery h4 {
+  font-family:  helvetica neue, sans;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 4.5em;
+  font-weight: 200;
+  line-height: 1.65em;
+  color: #202A29; 
+  border-bottom: 1px solid #202A29;
+}

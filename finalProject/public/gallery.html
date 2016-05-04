@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>kylesza/gallery</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="podcast.html">podcast</a></li>
+                    <li><a href="contact.html">contact</a></li>
+
+                </ul>
+            </div>
+        
+        </nav>
+        
+        
+        <div class=" gallery">
+            
+            <br>
+            
+        <h2 class="page-title">gallery</h2>
+
+
+        <div class="row">
+
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/1.jpg"><img class="group1" src="img/pics/1small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/2.jpg"><img class="group1" src="img/pics/2small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/3.jpg"><img class="group1" src="img/pics/3small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/4.jpg"><img class="group1" src="img/pics/4small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/5.jpg"><img class="group1" src="img/pics/5small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/6.jpg"><img class="group1" src="img/pics/6small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/7.jpg"><img class="group1" src="img/pics/7small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/8.jpg"><img class="group1" src="img/pics/8small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/9.jpg"><img class="group1" src="img/pics/9small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/10.jpg"><img class="group1" src="img/pics/10small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/11.jpg"><img class="group1" src="img/pics/11small.jpg" title="Image Title" /></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" rel="lightbox[group]" href="img/pics/12.jpg"><img class="group1" src="img/pics/12small.jpg" title="Image Title" /></a>
+            </div>
+        </div>
+
+
+        </div> 
+        
+            <footer>
+        <hr>
+        Copyright © Kyle Kulesza
+    </footer>
+            
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+
+            // Colorbox Call
+
+            $(document).ready(function(){
+                $("[rel^='lightbox']").prettyPhoto();
+            });
+        </script>
+    </body>
+</html>
